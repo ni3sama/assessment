@@ -1,0 +1,116 @@
+body {
+  margin: 0%;
+  font-family: "Signika", sans-serif;
+}
+
+/*---------------Styles of Side Navbar-------------*/
+.sideNav {
+  width: 110px;
+  height: 100%;
+  background-color: rgba(245, 245, 245, 0.378);
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 0px 10px 2px #8888886b;
+  z-index: 1;
+}
+
+.sideNav i {
+  font-size: 1.5rem;
+  padding-bottom: 3px;
+}
+
+#logo {
+  font-size: 3.5rem;
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.075);
+  width: 100%;
+  color: black;
+}
+.sideNav ul {
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+.sideNav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.sideNav li {
+  border-left: 3px solid transparent;
+}
+
+.sideNav ul li a {
+  display: block;
+  padding: 25px 10px 25px 10px;
+}
+
+.sideNav li:hover {
+  background-color: #0041c227;
+  border-left: 3px solid #0041c2;
+  cursor: pointer;
+  color: black;
+}
+
+.sideNav li a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.mainPage {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+/*---------------Styles of Lesson Plan-------------*/
+.content {
+  background-color: whitesmoke;
+  width: 100%;
+  margin-top: 97px;
+  align-items: stretch;
+}
+
+.videos {
+  margin: 10px 10px 10px 40px;
+  display: flex;
+}
+
+.videos i {
+  padding-top: 18px;
+  padding-right: 10px;
+}
+
+.uploadForm {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.uploadForm input {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  height: 30px;
+  width: 100%;
+}
+
+.uploadForm button {
+  background-color: white;
+  border: transparent;
+  width: 120px;
+  height: 120px;
+  float: left;
+  text-align: center;
+}
+
+/*---------------Styles of School and Settings-------------*/
+
+.underConstruction {
+  text-align: center;
+  margin-top: 100px;
+}
+.underConstruction i {
+  font-size: 10rem;
+}
